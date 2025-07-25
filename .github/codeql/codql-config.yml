@@ -1,0 +1,14 @@
+name: "AzureGoat CodeQL Config"
+
+# These are the relative paths (from repo root) that CodeQL will include
+paths:
+  - modules/
+  - functions/
+  - shared/
+  - infrastructure/
+
+# Optional: include additional queries
+# Uncomment the lines below to include extra security or quality checks
+# queries:
+#   - uses: security-extended
+#   - uses: security-and-quality
